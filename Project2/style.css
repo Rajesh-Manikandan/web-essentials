@@ -1,0 +1,30 @@
+.container {
+  width: 1024px;
+  min-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+  height: 80px;
+  background-color: rgb(192, 191, 192);
+}
+
+main {
+  height: 300px;
+  background-color: rgb(117, 116, 117);
+}
+
+.cards {
+  min-height: 200px;
+  background-color: rgb(150, 148, 150);
+  display: flex;
+  justify-content: space-between;
+}
+
+.card1,
+.card2,
+.card3 {
+  min-height: 200px;
+  width: 30%;
+  background-color: rgb(160, 160, 160);
+}
